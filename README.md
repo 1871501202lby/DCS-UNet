@@ -6,6 +6,10 @@ DCS-UNet is a SAM2-based segmentation framework with lightweight task-specific a
 conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=11.7 -c pytorch -c nvidia
 pip install timm einops pytorch_wavelets
 ```
+## Pretrained Weights
+ DCS-UNet weights:通过网盘分享的文件：DCSUNet.pth
+链接: https://pan.baidu.com/s/18vc4Z3pG3H6rYO5INtNOgA 提取码: 1p87 
+
 ## Training
 ```bash
 python train.py \
